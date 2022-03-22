@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import leftSideBar from './leftSideBar';
+import Hello from './Hello';
 
 ReactDOM.render(
-    <React.StrictMode>
-	<leftSideBar />
-    </React.StrictMode>,
+   <Hello />,
   document.getElementById('root')
 );
